@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookgram</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+    <div id="barraSuperior">
+        <img src="icono.png" alt="iconoRS">
+        <h1>Bookgram</h1>
+    </div>
+    <form>
+        <fieldset class="campo">
+            <legend>SOBRE BOOKGRAM</legend>
+            <div class="espacio">
+                <p>Bookgram es una red social derivada de Instagram y Facebook, creada para generar una conexión entre ambas y así poder facilitar el contacto entre usuarios de diferentes aplicaciones.</p>
+            </div>
+        </fieldset>
+
+        <fieldset class="campo">
+            <legend>CREAR UNA CUENTA</legend>
+            <div class="espacio">
+                <label for="Correo">E-mail:</label>
+                <input type="text" id="Correo" name="Correo" size="20" value="Pancho@netica.com"/> <br>
+            </div>
+            <div class="espacio">
+                <label for="NUsuario">Nombre de usuario:</label>
+                <input type="text" id="NUsuario" name="Usuario" size="20" value="@Usuario"/> <br>
+            </div>
+            <div class="espacio">
+                <label for="NContrasena">Contraseña:</label>
+                <input type="password" id="NContrasena" name="Contrasena" size="20" value="*****"/> <br>
+                <!-- Enlace de "Olvidé mi contraseña" -->
+                <a href="recuperar_contrasena.html" style="font-size: 0.9em; color: #4285f4; text-decoration: none;">Olvidé mi contraseña</a>
+            </div>
+            <div class="espacio">
+                <label for="NContrasena">Confirmar contraseña:</label>
+                <input type="password" id="ConfirmarContrasena" name="ConfirmarContrasena" size="20" value="*****"/> <br>
+            </div>
+            <div class="espacio">
+                <label for="Pais">País:</label>
+                <input type="text" id="Pais" name="Pais" size="20" value="México"/> <br>
+            </div>
+            <div class="espacio">
+                <label for="Numero">Número Telefónico:</label>
+                <input type="text" id="Numero" name="Numero" size="20" value="8333213125"/> <br>
+            </div>
+            <div class="espacio opciones">
+                <input type="checkbox" id="condiciones" name="condiciones"/>
+                <label for="condiciones">Acepto las condiciones</label> <br>
+            </div>
+            <div class="espacio opciones">
+                <input type="submit" value="Listo" class="boton"/>
+                <input type="reset" value="Borrar" class="boton"/>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <p>PRACTICA 7 - Formulario con estilos</p>
+    </footer>
+</body>
+</html>
